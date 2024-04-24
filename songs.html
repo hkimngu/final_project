@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="reset_stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Music Room</title>
+</head>
+<body>
+    <header>
+        <a href = "#main" class ="offpage">Skip to Main Content</a>
+        <nav>
+            <ul>
+                <li class = "active"><a href = "songs.html">Songs</a></li>
+                <li><a href = "artists.html">Artists</a></li>
+            </ul>
+        </nav>
+        <h1>Favorite Songs</h1>
+        <p>Some of my favorite bands, groups, and singers and their songs throughtout my years!</p>
+    </header>
+    <main id="main">
+        <div id="record_player">
+        Click on any songs to hear a sample!
+        </div>
+        <h2>Sort by Artists</h2>
+        <div class="artist_container">
+            <button onclick="toggleFilter('half_alive', this)">Half Alive</button>
+            <button onclick="toggleFilter('min', this)">MIN</button>
+            <button onclick="toggleFilter('newjeans', this)">NewJeans</button>
+            <button onclick="toggleFilter('seventeen', this)">Seventeen</button>
+            <button onclick="toggleFilter('the_crane_wives', this)">The Crane Wives</button>
+            <button onclick="toggleFilter('the_oh_hellos', this)">The Oh Hellos</button>
+        </div>
+        <h2>Songs</h2>
+        <div class="songs">
+            <button onclick="showSong('aju_nice', this)" class="seventeen" class="aju_nice">Aju Nice!</button>
+            <button onclick="showSong('bitter_water', this)" class="the_oh_hellos" class="bitter_water">Bitter Water</button>
+            <button onclick="showSong('ca_phe', this)" class="min" class="ca_phe">Ca Phe</button> 
+            <button onclick="showSong('circles', this)" class="seventeen" class="circles">Circles</button>
+            <button onclick="showSong('creature', this)" class="half_alive" class="creature">Creature</button>
+            <button onclick="showSong('curses', this)" class="the_crane_wives" class="curses">Curses</button> 
+            <button onclick="showSong('ditto', this)" class="newjeans" class="ditto">Ditto</button> 
+            <button onclick="showSong('eurus', this)" class="the_oh_hellos" class="eurus">Eurus</button>
+            <button onclick="showSong('ghen', this)" class="min" class="ghen">Ghen</button> 
+            <button onclick="showSong('grow', this)" class="the_oh_hellos" class="grow">Grow</button>
+            <button onclick="showSong('hot_tea', this)" class="half_alive" class="hot_tea">Hot Tea</button> 
+            <button onclick="showSong('idubilu', this)" class="seventeen" class="idubilu">I Don't Understand But I Luv U</button>
+            <button onclick="showSong('like_the_dawn', this)" class="the_oh_hellos" class="like_the_dawn">Like the Dawn</button>
+            <button onclick="showSong('make_of_it', this)" class="half_alive" class="make_of_it">Make of It</button> 
+            <button onclick="showSong('oh_my', this)" class="seventeen" class="oh_my">Oh My!</button>
+            <button onclick="showSong('omg', this)" class="newjeans" class="omg">OMG</button> 
+            <button onclick="showSong('passerine', this)" class="the_oh_hellos" class="passerine">Passerine</button>
+            <button onclick="showSong('rock_with_you', this)" class="seventeen" class="rock_with_you">Rock with You</button>
+            <button onclick="showSong('shadow', this)" class="seventeen" class="shadow">Shadow</button>
+            <button onclick="showSong('super_shy', this)" class="newjeans" class="super_shy">Super Shy</button> 
+            <button onclick="showSong('still_feel', this)" class="half_alive" class="still_feel">Still Feel</button> 
+            <button onclick="showSong('the_moon_will_sing', this)" class="the_crane_wives" class="the_moon_will_sing">The Moon Will Sing</button> 
+            <button onclick="showSong('tongues_and_teeth', this)" class="the_crane_wives" class="tongues_and_teeth">Tongues & Teeth</button> 
+            <button onclick="showSong('whats_wrong', this)" class="half_alive" class="whats_wrong">What's Wrong</button>   
+        </div> 
+    </main>
+</body>
+</html>
